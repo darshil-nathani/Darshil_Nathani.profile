@@ -7,9 +7,9 @@
                     {{-- <div class="one-third js-fullheight order-md-last img" style="background-image:url('{{URL::asset('Asset/images/project-4.jpg')}}');">
                         <div class="overlay"></div>
                     </div> --}}
-                    <div class="col-xl-6">
+                    <div class="col-xl-4 profile">
 						<div class="image-wrapper " data-tilt data-tilt-max="10" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform ;">
-							<img class="img-fluid mt-10 profile-image" src="{{asset('Asset/images/Darshil.jpg')}}" >
+							<img class="img-fluid profile-image" src="{{asset('Asset/images/DarshilMAin.jpg')}}" >
 						</div>
 					</div>
                     <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">

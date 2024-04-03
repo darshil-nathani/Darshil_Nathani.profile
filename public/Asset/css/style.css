@@ -170,6 +170,7 @@ img {
   vertical-align: middle;
   border-style: none; }
 
+
 svg {
   overflow: hidden;
   vertical-align: middle; }
@@ -3184,6 +3185,13 @@ input[type="button"].btn-block {
     content: "Browse"; }
   .custom-file-input ~ .custom-file-label[data-browse]::after {
     content: attr(data-browse); }
+
+    .map-wrapper {
+        min-height: 500px;
+        background: #f2f5fb;
+        margin-right: 90px;
+        border-radius: 10px;
+      }
 
 .custom-file-label {
   position: absolute;
@@ -8396,7 +8404,11 @@ h1, h2, h3, h4, h5,
   @media (max-width: 1199.98px) {
     .hero h3.vr {
       opacity: 0;
-      display: none; } }
+      display: none; }
+      .map-wrapper {
+        margin-right: 0;
+      }
+    }
 
 .owl-carousel {
   position: relative; }
@@ -8461,6 +8473,12 @@ h1, h2, h3, h4, h5,
                 position: relative;
                 top: -50px;
             }
+            .profile{
+                margin-bottom: 50px;
+                /* margin-top:10px; */
+                width: 500px;
+                height: 450px;
+          }
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
@@ -8497,7 +8515,8 @@ h1, h2, h3, h4, h5,
               bottom: 0;
               right: 0;
               width: 1200px;
-              margin: 0 auto; } }
+              margin: 0 auto; }
+             }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               width: 100%;
@@ -8530,7 +8549,8 @@ h1, h2, h3, h4, h5,
           text-transform: uppercase;
           color: #ffbd39; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
-          position: relative;
+          position: absolute;
+          top: 0;
           z-index: 1; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 60px;
@@ -9231,6 +9251,10 @@ textarea.form-control {
 
 .profile-image{
     border-radius: 10%;
+    height: 550px;
+  }
+  .profile{
+        margin-bottom: 90px;
   }
 
   .image-wrapper {

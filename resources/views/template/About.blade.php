@@ -4,7 +4,7 @@
             <div class="col-md-6 col-lg-5 d-flex">
                 <div class="img-about img d-flex align-items-stretch">
                     <div class="overlay"></div>
-                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/Darshil.jpg);">
+                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url('{{URL::asset('Asset/images/DarshilMain1.jpg')}}');">
                     </div>
                 </div>
             </div>
@@ -24,9 +24,6 @@
               </div>
             </div>
           <div class="counter-wrap ftco-animate d-flex mt-md-3">
-          <div class="text">
-            <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
-          </div>
           </div>
         </div>
     </div>

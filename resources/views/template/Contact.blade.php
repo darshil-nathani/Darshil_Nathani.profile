@@ -39,7 +39,7 @@
       </div>
 
       <div class="row no-gutters block-9">
-        <div class="col-md-6 order-md-last d-flex">
+        <div class="col-md-6  order-md-last d-flex">
           <form action="#" class="bg-light p-4 p-md-5 contact-form">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Your Name">
@@ -57,9 +57,14 @@
 
         </div>
 
-        <div class="col-md-6 d-flex">
-            <div class="img" style="background-image: url(images/Darshil.jpg);"></div>
+        {{-- <div class="col-md-6 d-flex">
+            <div class="img" style="background-image: url('{{URL::asset('Asset/images/Location.jpg')}}');"></div>
+        </div> --}}
+      {{-- </div> --}}
+      <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+        <div  class="map-wrapper" id="mapwrapper">
+            <img src="{{asset('Asset/images/Locatio.jpg')}}" style="max-width: 400px; height: 500px; ">
         </div>
-      </div>
+    </div>
     </div>
   </section>
